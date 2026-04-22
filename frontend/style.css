@@ -1,0 +1,80 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: white;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.create, .poll {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 15px auto;
+  max-width: 600px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  border-radius: 6px;
+  border: none;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 12px;
+  border: none;
+  background: #3b82f6;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #2563eb;
+}
+
+.option-box {
+  margin-top: 10px;
+}
+
+.bar-container {
+  width: 100%;
+  background: #334155;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+.bar {
+  height: 20px;
+  background: linear-gradient(90deg, #22c55e, #4ade80);
+  text-align: right;
+  padding-right: 5px;
+  font-size: 12px;
+  line-height: 20px;
+  border-radius: 10px;
+  transition: width 0.5s ease;
+}
+
+.vote-text {
+  font-size: 13px;
+  margin-top: 3px;
+  color: #cbd5f5;
+}
+
+.delete-btn {
+  background: #ef4444;
+}
+
+.delete-btn:hover {
+  background: #dc2626;
+}
