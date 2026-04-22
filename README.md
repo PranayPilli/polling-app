@@ -36,13 +36,15 @@ A full-stack voting/poll application built using FastAPI (Python) and JavaScript
 
 ## Project Structure
 
-/project
-  /frontend
-    index.html
-    style.css
-    app.js
-  /backend
-    main.py
+```
+project/
+├── frontend/
+│   ├── index.html
+│   ├── style.css
+│   └── app.js
+└── backend/
+    └── main.py
+```
 
 ---
 
