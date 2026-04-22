@@ -6,31 +6,31 @@ A full-stack voting/poll application built using FastAPI (Python) and JavaScript
 
 ## Features
 
-* Create polls with 2–4 options
-* Vote on polls
-* Real-time results with percentages
-* Progress bar visualization
-* Prevent duplicate voting (IP + localStorage)
-* Delete polls
-* View all polls
+- Create polls with 2–4 options  
+- Vote on polls  
+- Real-time results with percentages  
+- Progress bar visualization  
+- Prevent duplicate voting (IP + localStorage)  
+- Delete polls  
+- View all polls  
 
 ---
 
 ## Tech Stack
 
-* Backend: FastAPI (Python)
-* Frontend: HTML, CSS, JavaScript
-* Database: In-memory storage
+- Backend: FastAPI (Python)  
+- Frontend: HTML, CSS, JavaScript  
+- Database: In-memory storage  
 
 ---
 
 ## API Endpoints
 
-* GET /polls
-* POST /polls
-* POST /polls/{id}/vote
-* DELETE /polls/{id}
-* GET /polls/{id}/results
+- GET /polls  
+- POST /polls  
+- POST /polls/{id}/vote  
+- DELETE /polls/{id}  
+- GET /polls/{id}/results  
 
 ---
 
@@ -52,13 +52,15 @@ project/
 
 ### Backend
 
+```
 cd backend
 pip install fastapi uvicorn
 uvicorn main:app --reload
+```
 
 ### Frontend
 
-Open frontend/index.html in your browser
+Open `frontend/index.html` in your browser  
 
 ---
 
