@@ -4,6 +4,10 @@ A full-stack voting/poll application built using FastAPI (Python) and JavaScript
 
 ---
 
+## Output
+
+![Polling App UI](output.png)
+
 ## Features
 
 - Create polls with 2–4 options  
